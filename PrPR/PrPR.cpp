@@ -12,6 +12,7 @@
 #define TableNames "C:\\Users\\PC\\Desktop\\Database\\TableNames\\"
 #define TableRows "C:\\Users\\PC\\Desktop\\Database\\TableRows\\"
 #define TableTree "C:\\Users\\PC\\Desktop\\Database\\TreeNodeAndTreeSerialization.txt"
+#define TableTreeSomething "C:\\Users\\PC\\Desktop\\Database\\TreeNodeAndTreeSerialization.txt"
 
 void writeStringToFile(std::ostream& os, const std::string& val)
 {
