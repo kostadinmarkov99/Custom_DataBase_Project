@@ -147,7 +147,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GlobalFunctions.cpp" />
+    <ClCompile Include="List.cpp" />
     <ClCompile Include="PrPR.cpp" />
+    <ClCompile Include="TableName.cpp" />
+    <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="TreeNode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GlobalFunctions.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="TableName.h" />
+    <ClInclude Include="Tree.h" />
+    <ClInclude Include="TreeNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
